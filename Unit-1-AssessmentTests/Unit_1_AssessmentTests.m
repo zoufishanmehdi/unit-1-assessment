@@ -39,7 +39,7 @@
 
 - (void)testCreateAndReturnCarl {
     NSDictionary *carl = [NSDictionary carl];
-    XCTAssertTrue([carl isEqual:[self.assessment createAndReturnCarl]]);
+    XCTAssertTrue([carl isEqual:[self.assessment createAndReturnCarlDictionary]]);
 }
 
 - (void)testReturnAllKeys {

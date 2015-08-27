@@ -11,7 +11,7 @@
 @interface WrittenAssessment : NSObject
 
 - (NSDictionary *)createAndReturnNSDictionary;
-- (NSDictionary *)createAndReturnCarl;
+- (NSDictionary *)createAndReturnCarlDictionary;
 - (NSDictionary *)mergeDictionaries:(NSDictionary *)dictionaryToMerge;
 - (NSArray *)returnAllKeysInTheDictionary:(NSDictionary *)thisIsTheDictionary;
 

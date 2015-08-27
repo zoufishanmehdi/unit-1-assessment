@@ -17,13 +17,13 @@
 }
 
 // Create and return an NSDictionary * with the following key value entries"
-//   name : Carl
-//   age  : 48
-//   job  : YMCA
-//   kids : 8
-//   mustache : YES
+//   name : Carl (NSString)
+//   age  : 48 (NSNumber)
+//   job  : YMCA (NSString)
+//   kids : 8 (NSNumber)
+//   mustache : YES (BOOL)
 
-- (NSDictionary *)createAndReturnCarl {
+- (NSDictionary *)createAndReturnCarlDictionary {
     return @{};
 }
 
