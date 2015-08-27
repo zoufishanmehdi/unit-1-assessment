@@ -31,4 +31,4 @@ There are 3 total screens. The first screen has rectangles and buttons, the seco
 * The `delay push` button should transition to the table view controller after a 2 second delay
 * The table view controller should display the name of each student in the class (names are in developers.txt).
   * ⭐️ for different sort orders
-* Tapping on a cell should navigate to a view controller displaying the image that corresponds to the developer tapped (the image names are the same as the developer names, minus spaces)
+* Tapping on a cell should navigate to a view controller displaying the image that corresponds to the developer tapped (the image names are the same as the developer names, minus spaces and all lower case characters)
