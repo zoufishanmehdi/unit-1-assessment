@@ -18,7 +18,7 @@ This is the majority of the assessment. You must implement the layout and functi
 # Instructions
 
 **Written Assessment**  
-The written part of the assessment can be found in `WrittenAssessment.h`. Open that file, implement the methods, pass the tests.
+The written part of the assessment can be found in `WrittenAssessment.m`. Open that file, implement the methods, pass the tests.
 
 **iOS Assessment**
 There are 3 total screens. The first screen has rectangles and buttons, the second screen is a table, and the third screen is one large image.
