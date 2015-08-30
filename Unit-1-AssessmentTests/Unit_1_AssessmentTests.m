@@ -42,6 +42,13 @@
     XCTAssertTrue([carl isEqual:[self.assessment createAndReturnCarlDictionary]]);
 }
 
+- (void)testMergeDictionaries {
+    NSDictionary *plutonium = [NSDictionary plutonium];
+    NSDictionary *expectedResponse = [NSDictionary mergeResults];
+    NSDictionary *response = [self.assessment addEntriesToDictionary:plutonium];
+    XCTAssertTrue([response isEqual:expectedResponse]);
+}
+
 - (void)testReturnAllKeys {
     NSDictionary *one = @{@"star" : @"plus", @"cat" : @"penguin", @"tv" : @"pudge"};
     NSDictionary *two = @{@"baby" : @"basket", @"dogs" : @"airplane", @"cheese" : @"blanket"};
@@ -52,14 +59,5 @@
     XCTAssertTrue([returnedArray isEqual:oneArray]);
     XCTAssertTrue([returnedArrayTwo isEqual:twoArray]);
 }
-
-- (void)testMergeDictionaries {
-    NSDictionary *plutonium = [NSDictionary plutonium];
-    NSDictionary *expectedResponse = [NSDictionary mergeResults];
-    NSDictionary *response = [self.assessment mergeDictionaries:plutonium];
-    XCTAssertTrue([response isEqual:expectedResponse]);
-}
-
-
 
 @end

@@ -16,7 +16,9 @@
     return @{};
 }
 
-// Create and return an NSDictionary * with the following key value entries"
+// Create and return an NSDictionary * with the following key value entries. Please note that
+// it is case sensitive.
+//
 //   name : Carl (NSString)
 //   age  : 48 (NSNumber)
 //   job  : YMCA (NSString)
@@ -29,10 +31,11 @@
 
 // In this method you are passed an NSDictionary * as a parameter. Your job is to return
 // a new dictionary that contains the contents of the `dictionaryToMerge` AS WELL AS a new
-// entry with the following key/value
+// entry with the following key/value. There are multiple solutions to this problem.
+//
 //   food : cheetos
 
-- (NSDictionary *)mergeDictionaries:(NSDictionary *)dictionaryToMerge {
+- (NSDictionary *)addEntriesToDictionary:(NSDictionary *)originalDictionary {
     return @{};
 }
 

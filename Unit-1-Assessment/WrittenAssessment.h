@@ -12,7 +12,7 @@
 
 - (NSDictionary *)createAndReturnNSDictionary;
 - (NSDictionary *)createAndReturnCarlDictionary;
-- (NSDictionary *)mergeDictionaries:(NSDictionary *)dictionaryToMerge;
+- (NSDictionary *)addEntriesToDictionary:(NSDictionary *)originalDictionary;
 - (NSArray *)returnAllKeysInTheDictionary:(NSDictionary *)thisIsTheDictionary;
 
 @end
